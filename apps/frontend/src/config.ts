@@ -13,7 +13,7 @@ export function getApiUrl(): string {
         return import.meta.env.VITE_API_URL || 'http://localhost:8600/api';
     }
     // In production, use the production API URL
-    return 'https://api.satwaraa.dev/api';
+    return 'https://temp-sand-five-37.vercel.app/api';
 }
 
 /**
@@ -30,5 +30,5 @@ export function getWsUrl(): string {
         );
     }
     // In production, use the production API domain for WebSocket
-    return 'https://api.satwaraa.dev';
+    return 'https://temp-sand-five-37.vercel.app';
 }
