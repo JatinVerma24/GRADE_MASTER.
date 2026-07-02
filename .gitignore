@@ -1,0 +1,21 @@
+# Ignore node modules everywhere
+node_modules/
+
+# temp folder artifacts
+/temp/node_modules/
+/temp/package-lock.json
+/temp/dist/
+
+# frontend build output
+/apps/frontend/dist/
+/apps/frontend/dist-ssr/
+/apps/frontend/.vite/
+
+# env files
+*.env
+
+# OS and editor files
+.vscode/
+*.log
+.DS_Store
+*.db
